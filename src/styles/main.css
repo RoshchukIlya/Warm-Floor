@@ -1,0 +1,79 @@
+@import './normalize.css';
+@import './variables.css';
+@import './header.css';
+@import './sections.css';
+@import './footer.css';
+
+html {
+  font-size: calc(100vw / 1440 * 10);
+}
+
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: calc (100vw / 768 * 10);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: calc (100vw / 320 * 10);
+  }
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: regular;
+  font-weight: 400;
+  src: local('Inter'),
+    url('C:\Users\Ilya\Desktop\New folder\hw\HW 20.03.2023\public\accets\fonts\Inter\Inter-VariableFont_slnt,wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: medium;
+  font-weight: 500;
+  src: local('Inter'),
+    url('C:\Users\Ilya\Desktop\New folder\hw\HW 20.03.2023\public\accets\fonts\Inter\Inter-VariableFont_slnt,wght.ttf') format('truetype');
+}
+
+body {}
+
+button {
+  padding: 1.8rem 4rem;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  text-transform: uppercase;
+  border-radius: 2.4rem;
+  cursor: pointer;
+}
+
+.logo {
+  height: 3.9rem;
+}
+
+.container {
+  max-width: 119rem;
+  margin: 0 auto;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  color: var(--black);
+  background-color: var(--white);
+}
+
+@media all and (max-width: 1025px) {
+  .container {
+    max-width: 89rem;
+  }
+}
+
+@media all and (max-width: 769px) {
+  .container {
+    max-width: 63rem;
+  }
+}
+
+@media all and (max-width: 321px) {
+  .container {
+    max-width: 32rem;
+  }
+}

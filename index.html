@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <title>ТЕПЛЫЙ ПОЛ</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="E-Commerce Online Shop" />
+  <meta name="Author" content="Ilya Popov" />
+  <link rel="icon" href="./public/accets/images/icon.svg">
+  <link rel="stylesheet" href="./src/styles/main.css">
+  <!-- SWIPER -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <img src="./public/accets/images/logo.svg" alt="Logo" class="logo">
+      <button class="header-btn">Заказать</button>
+    </header>
+    <main class="sections">
+      <section class=sections-1>
+        <div class="sections-1-left">
+          <h3>Приносим тепло в каждый дом</h3>
+          <p>Устанавливаем теплые <span class="sections-1__poly">полы </span> в квартирах, офисах и<span
+              class="sections-1__zagorodnih"> загородных </span> домах.</p>
+          <button class="sections__btn">Рассчитать стоимость</button>
+        </div>
+        <div class="sections-1-right">
+          <!-- Slider main container -->
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="./public/accets/images/img (1).png" alt="slide"></div>
+              <div class="swiper-slide"><img src="./public/accets/images/img (5).png" alt="slide"></div>
+              <div class="swiper-slide"><img src="./public/accets/images/img (3).png" alt="slide"></div>
+              <div class="swiper-slide"><img src="./public/accets/images/img (4).png" alt="slide"></div>
+              <div class="swiper-slide"><img src="./public/accets/images/img (6).png" alt="slide"></div>
+            </div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </section>
+      <section class=sections-2>
+        <div class="sections-2-left">
+          <h3>Наши преимущества</h3>
+        </div>
+        <div class="sections-2-right">
+          <ul>
+            <li> <img class="marker" src="./public/accets/images/marker.svg" alt="marker"> Надежные материалы</li>
+            <li class="marker-element
+            "> <img class="marker" src="./public/accets/images/marker.svg" alt="marker"> Опытные монтажники</li>
+            <li class="marker-element
+            "> <img class="marker" src="./public/accets/images/marker.svg" alt="marker"> Регулируемая температура пола
+            </li>
+            <li class="marker-element
+            "> <img class="marker" src="./public/accets/images/marker.svg" alt="marker"> Защита от замыканий</li>
+            <li class="marker-element
+            "> <img class="marker" src="./public/accets/images/marker.svg" alt="marker"> Гарантия до 10 лет</li>
+          </ul>
+        </div>
+      </section>
+      <section class=sections-3>
+        <div class="sections-3-left">
+          <h3>Рассчитайте стоимость</h3>
+          <div class="inputs-number">
+            <div class="inputs-width">
+              <label for="width">Ширина помещения, м</label>
+              <input id="width" type="number" class="input__number">
+            </div>
+            <div class="inputs-height">
+              <label for="height">Длина помещения, м</label>
+              <input id="height" type="number" class="input__number">
+            </div>
+          </div>
+          <p>Тариф</p>
+          <div class="inputs-radio">
+            <input type="radio" name="tarif" id="econom">
+            <label for="econom">Эконом</label>
+            <input type="radio" name="tarif" id="comfort">
+            <label for="comfort">Комфорт</label>
+            <input type="radio" name="tarif" id="premium">
+            <label for="premium">Премиум</label>
+          </div>
+          <button class="sections__btn">Рассчитать</button>
+        </div>
+        <div class="sections-3-right">
+          <div class="sections-3__info">
+            <div class="sections-3__info-area">
+              <p class="info-text">Площадь</p>
+              <p class="info-number">35 кв м</p>
+            </div>
+            <div class="sections-3__info-price">
+              <p class="info-text">Примерная стоимость</p>
+              <p class="info-number">42590 руб</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-up">
+        <div class="footer-up_1">
+          <div class="footer__logo">
+            <img src="./public/accets/images/logo.svg" alt="logo" class="logo">
+          </div>
+          <div class="footer__media">
+            <a href="#"><img src="./public/accets/images/youtube-icon.svg" alt="youtube"></a>
+            <a href="#"><img src="./public/accets/images/telegram-icon.svg" alt="telegram"></a>
+          </div>
+        </div>
+        <div class="footer-up_2">
+          <a href="#">
+            <img src="./public/accets/images/telephone-icon.svg" alt="phone">
+            </img></a>
+          <a href="#">
+            +7 858 849 73 80
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-center">
+        <div class="footer-center__email">
+          <a href="#"><img src="./public/accets/images/mail-icon.svg" alt="e-mail">
+            </img></a>
+          <a href="#">Teplyipol@gmail.com</a>
+        </div>
+      </div>
+      <div class="footer-down">
+        <div class="footer-down_1">
+          <p>© Теплый пол, 2023</p>
+        </div>
+        <div class="footer-down_2">
+          <p>Designer: Anastasia Ilina</p>
+          <p>Developer: Ilia Popov</p>
+        </div>
+      </div>
+
+      <script>
+        const swiper = new Swiper('.swiper', {
+          // Optional parameters
+          loop: true,
+
+          // Navigation arrows
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+        });
+      </script>
+
+  </div>
+</body>
+
+</html>

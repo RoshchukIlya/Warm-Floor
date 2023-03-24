@@ -1,0 +1,27 @@
+.header {
+  padding: 1.8rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-btn {
+  background: transparent;
+  border: .1rem solid var(--black);
+}
+
+.header-btn:hover {
+  background-color: var(--yellow-pale);
+  border-color: var(--yellow-pale);
+}
+
+.header-btn:active {
+  border-color: var(--yellow);
+  background-color: var(--white);
+}
+
+.header-btn:disabled {
+  border-color: var(--light-grey);
+  background-color: var(--white);
+  color: var(--light-grey);
+}
